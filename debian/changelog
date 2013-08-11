@@ -1,3 +1,10 @@
+python-fuse (2:0.2.1-8) unstable; urgency=low
+
+  * Add to collab-maint
+  * Bump up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 11 Aug 2013 22:00:19 +0200
+
 python-fuse (2:0.2.1-7) unstable; urgency=low
 
   * Any FUSE-compliant implementation will do (thanks Robert McMillan for
