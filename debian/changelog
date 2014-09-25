@@ -1,3 +1,11 @@
+python-fuse (2:0.2.1-10) unstable; urgency=medium
+
+  * Bump up Standards-Version
+  * Move debian/compat to 9
+  * Move to dh
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 25 Sep 2014 14:43:42 +0200
+
 python-fuse (2:0.2.1-9) unstable; urgency=low
 
   * gitignore
