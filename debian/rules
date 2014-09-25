@@ -1,12 +1,4 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/python-distutils.mk
-
-STAGING_DIR               := $(CURDIR)/debian/python-fuse
-UPSTREAM_EXAMPLE_DIR      := example
-DEB_COMPRESS_EXCLUDE      := .py
-DEB_INSTALL_DOCS_ALL      := debian/README.Debian FAQ AUTHORS
-
-install/python-fuse::
-	cp -r $(UPSTREAM_EXAMPLE_DIR) $(STAGING_DIR)/usr/share/doc/python-fuse/examples
+%:
+	dh $@
