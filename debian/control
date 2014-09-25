@@ -10,7 +10,7 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/python-fuse.git
 
 Package: python-fuse
 Architecture: any
-Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, fuse [linux-any] | fuse4bsd [kfreebsd-any]
+Depends: ${misc:Depends}, ${shlibs:Depends}, fuse [linux-any] | fuse4bsd [kfreebsd-any]
 XB-Python-Version: ${python:Versions}
 Provides: ${python:Provides}
 Breaks: gmailfs (<= 0.7.3-4), wikipediafs (<= 0.3), python2.4-fuse (<< 2.5-3), python2.3-fuse (<< 2.5-3)
