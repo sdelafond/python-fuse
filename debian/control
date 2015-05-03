@@ -17,7 +17,7 @@ Breaks: gmailfs (<= 0.7.3-4), wikipediafs (<= 0.3), python2.4-fuse (<< 2.5-3), p
 Replaces: python2.4-fuse (<< 2.5-3), python2.3-fuse (<< 2.5-3)
 Description: Python bindings for FUSE (Filesystems in USErland)
  This is a Python interface to FUSE.
- . 
+ .
  FUSE (Filesystem in USErspace) is a simple interface for userspace
  programs to export a virtual filesystem to the Linux kernel. FUSE
  also aims to provide a secure method for non privileged users to
