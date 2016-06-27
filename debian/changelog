@@ -1,3 +1,10 @@
+python-fuse (2:0.2.1-13) unstable; urgency=medium
+
+  * Add homepage in debian/control (Closes: #828684)
+  * Add --with python2 in debian/rules (Closes: 828754)
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 27 Jun 2016 16:36:04 +0200
+
 python-fuse (2:0.2.1-12) unstable; urgency=medium
 
   * Build-depend on gcc instead of gcc-4.9 (Closes: 818780)
