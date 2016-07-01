@@ -1,4 +1,2 @@
 version=3
-
-opts="uversionmangle=s/\-pre/\~pre/" \
-https://qa.debian.org/watch/sf.php/fuse .*/fuse-python-(.+)\.tar\.gz debian uupdate
+https://github.com/libfuse/python-fuse/releases .*/(\d[\d\.]*)\.tar\.gz debian uupdate
