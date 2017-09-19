@@ -16,7 +16,7 @@ XB-Python-Version: ${python:Versions}
 Provides: ${python:Provides}
 Breaks: gmailfs (<= 0.7.3-4), wikipediafs (<= 0.3), python2.4-fuse (<< 2.5-3), python2.3-fuse (<< 2.5-3)
 Replaces: python2.4-fuse (<< 2.5-3), python2.3-fuse (<< 2.5-3)
-Description: Python bindings for FUSE (Filesystems in USErland)
+Description: Python bindings for FUSE (Filesystems in USErspace)
  This is a Python interface to FUSE.
  .
  FUSE (Filesystem in USErspace) is a simple interface for userspace
