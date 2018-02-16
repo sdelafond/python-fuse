@@ -1,3 +1,11 @@
+python-fuse (2:0.2.1-16) unstable; urgency=medium
+
+  * Switch to DEP 14
+  * Update Vcs-* to point to salsa.d.o
+  * Force gz compression in gbp.conf for now, because 0.2.1 was uploaded as gz
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 16 Feb 2018 17:39:36 +0100
+
 python-fuse (2:0.2.1-15) unstable; urgency=medium
 
   * Change short description (Closes: #876157)
