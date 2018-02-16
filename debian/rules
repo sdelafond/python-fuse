@@ -4,5 +4,7 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all,-pie
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
+export PYBUILD_NAME=fuse
+
 %:
-	dh $@ --with python2
+	dh $@ --with python2 --buildsystem=pybuild
