@@ -1,3 +1,12 @@
+python-fuse (2:0.3.0-1~1.gbpf99bd0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f99bd08e0468f99635c2f2e9c79868614498c8f2 **
+
+  * Initial 2to3 pass
+  * python3
+
+ -- Sebastien Delafond <seb@debian.org>  Sat, 17 Feb 2018 09:17:15 +0100
+
 python-fuse (2:0.2.1-16) unstable; urgency=medium
 
   * Switch to DEP 14
