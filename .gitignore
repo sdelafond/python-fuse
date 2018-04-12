@@ -1,2 +1,3 @@
 build
-debian/python-fuse
+dist
+fuse_python.egg-info
