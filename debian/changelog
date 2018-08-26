@@ -1,3 +1,9 @@
+python-fuse (2:0.3.0-2) unstable; urgency=medium
+
+  * debian/watch now looks for vX.Y releases on GitHub
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 26 Aug 2018 19:06:35 +0200
+
 python-fuse (2:0.3.0-1) unstable; urgency=medium
 
   * New upstream version
