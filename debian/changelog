@@ -1,3 +1,13 @@
+python-fuse (2:1.0.0-1) unstable; urgency=medium
+
+  * New upstream version 1.0.0
+  * Add d/NEWS to mention breaking change about read/write data type
+  * Remove old patch
+  * Remove -pie from DEB_BUILD_MAINT_OPTIONS
+  * Bump-up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 29 Jul 2019 12:45:21 +0200
+
 python-fuse (2:0.3.1-1) unstable; urgency=medium
 
   * New upstream version 0.3.1
