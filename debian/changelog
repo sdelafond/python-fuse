@@ -1,3 +1,10 @@
+python-fuse (2:1.0.0-2) unstable; urgency=medium
+
+  * Add explicit build dependency on dh-python (Closes: #944946)
+  * Bump-up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 18 Nov 2019 10:45:39 +0100
+
 python-fuse (2:1.0.0-1) unstable; urgency=medium
 
   * New upstream version 1.0.0
