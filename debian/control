@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Sebastien Delafond <seb@debian.org>
 Build-Depends: python-all-dev, python-setuptools, libfuse-dev (>= 2.5), debhelper (>= 9~), pkg-config, python3-all-dev, python3-setuptools, dh-python
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0
 Homepage: https://github.com/libfuse/python-fuse
 Vcs-Git: https://salsa.debian.org/debian/python-fuse.git
 Vcs-Browser: https://salsa.debian.org/debian/python-fuse
